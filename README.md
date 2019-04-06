@@ -46,7 +46,7 @@ I am sharing publicly in case it helps others.
     - https://github.com/zserge/webview
 
 
-**Lorca**
+- **Lorca**
     - Cross-platform web view lib; uses Chrome
     - https://github.com/zserge/lorca
 
@@ -475,7 +475,8 @@ I am sharing publicly in case it helps others.
 
 - **kache**
     - Redis-compatible in-memory cache
-
+    - https://github.com/kasvith/kache
+    
 ## CLI 
 
 - **kingpin**
@@ -560,7 +561,10 @@ I am sharing publicly in case it helps others.
 - **golang-build-container**
     - Build container for Drud/DDEV
     - https://github.com/drud/golang-build-container
-    
+
+- **crfs**    
+    - Container Registry File System   
+    - https://github.com/google/crfs 
     
 ## VIRTUAL MACHINES (VM)
 - **govmomi**
@@ -571,6 +575,33 @@ I am sharing publicly in case it helps others.
 - **Ultimate Go**
     - Onsite training class
     - https://www.ardanlabs.com/ultimate-go/
+
+## GIT HOSTING OPTIONS
+
+- **Gogs**
+    - self-hosted Git service
+    - https://github.com/gogs
+    - https://gogs.io
+
+- **Gitea**
+    - self-hosted Git service
+    - Fork of Gogs
+    - https://github.com/go-gitea/
+    - https://gitea.io
+    
+## CACHING
+- **Cache2Go**
+	- Concurrency-safe golang caching library with expiration capabilities.
+	- https://github.com/uber-go/ratelimit
+- **kache**
+    - Redis-compatible in-memory cache
+    - https://github.com/kasvith/kache
+    
+# TEMPLATING
+- **quicktemplate**
+    - Template engine
+    - https://github.com/valyala/quicktemplate    
+    
 
 ## CURRENTLY UNCATEGORIZED
 
@@ -654,9 +685,6 @@ I am sharing publicly in case it helps others.
 	- Embed code into markdown and keep everything in sync
 	- https://github.com/campoy/embedmd
 
-- **Cache2Go**
-	- Concurrency-safe golang caching library with expiration capabilities.
-	- https://github.com/uber-go/ratelimit
 
 - **mgmt**
 	- Next generation distributed, event-driven, parallel config management
@@ -890,4 +918,83 @@ I am sharing publicly in case it helps others.
 - **holster**
     - Small single-purpose set of libs
     - https://github.com/mailgun/holster
-# golang-libraries-and-tools
+
+- **Shipspotter**
+    - Port forwarding inside Docker
+    - https://github.com/Shimmur/shipspotter
+
+- **golang-set**
+    - Simple set type
+    - https://github.com/deckarep/golang-set
+
+- **slim**
+    - Space efficient data structures
+    - https://github.com/openacid/slim
+
+- **red**
+    - Terminal log analysis tools
+    - https://github.com/antonmedv/red
+
+## **TO BE CATEGORIZED**
+- http://labix.org/gocheck
+- https://benjamincongdon.me/blog/2018/03/01/Scraping-the-Web-in-Golang-with-Colly-and-Goquery/
+- https://chronoxor.github.io/FastBinaryEncoding/
+- https://gaia-pipeline.io/ 
+    - Pipelines in any language
+- https://github.com/alash3al/redix
+- https://github.com/asmcos/requests
+- https://github.com/buger/goreplay
+- https://github.com/bytedance/go-tagexpr
+- https://github.com/cheekybits/genny
+- https://github.com/cheynewallace/tabby
+- https://github.com/cweill/gotests 
+    - Generate tests from source code
+- https://github.com/d4l3k/go-pry
+- https://github.com/d5/tengo - Scripting language
+- https://github.com/davecheney/xattr
+- https://github.com/elastic/go-elasticsearch
+- https://github.com/essentialkaos/gomakegen
+- https://github.com/fanpei91/torsniff - Bittorrent
+- https://github.com/getlantern/systray
+- https://github.com/go-task/task - Task runner
+- https://github.com/google/flatbuffers/tree/master/go
+- https://github.com/intel-go/bytebuf
+- https://github.com/jaypipes/pcidb
+- https://github.com/johanbrandhorst/certify
+- https://github.com/joomcode/redispipe
+- https://github.com/juju/ratelimit
+- https://github.com/ktr0731/go-fuzzyfinder
+- https://github.com/mattn/go-sqlite3 
+    - https://www.youtube.com/watch?v=RqubKSF3wig
+- https://github.com/mgechev/revive 
+    - Linter
+- https://github.com/mholt/archiver 
+    - ZIP, TAR etc files
+- https://github.com/mithrandie/csvq
+- https://github.com/netdata/go-statsd 
+    - https://www.datadoghq.com/blog/statsd/
+- https://github.com/nlopes/slack
+- https://github.com/nsqio/nsq
+- https://github.com/objectbox/objectbox-go
+- https://github.com/oxequa/realize - Task runner
+- https://github.com/PaesslerAG/gval
+- https://github.com/percolate/charlatan
+- https://github.com/PuerkitoBio/goquery
+- https://github.com/radovskyb/watcher
+- https://github.com/sogko/go-wordpress
+- https://github.com/solo-io/qloo
+- https://github.com/solo-io/supergloo
+- https://github.com/stretchr/testify
+- https://github.com/thought-machine/please 
+    - https://please.build/
+- https://github.com/TrueFurby/go-callvis 
+    - Visualizer for a Go program
+- https://github.com/v2tec/watchtower
+- https://github.com/valyala/fasthttp
+- https://github.com/variadico/noti
+- https://github.com/Workiva/go-datastructures
+- https://github.com/wtfutil/wtf 
+    - CLI dashboard (useful to learn how to do things?)
+- https://onsi.github.io/ginkgo/
+- https://onsi.github.io/gomega/
+
