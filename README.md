@@ -1,6 +1,7 @@
 # Go Libraries and Tools
-I created and am maintaining this list for my own purposes to 
-keep track of available libraries and tools for Go developers. 
+I am maintaining this list for my own purposes to 
+keep track of available libraries and tools for Go. 
+
 I am sharing publicly in case it helps others. 
 
 ## OTHER LISTS
