@@ -7,6 +7,42 @@ I am sharing publicly in case it helps others.
 ## OTHER LISTS
 - **https://awesome-go.com/**
 
+## GO DEV WORKFLOW
+
+- **goreportcard**
+    - Linter and vetter for Git repos containing Go code
+    - https://goreportcard.com/report/github.com/gearboxworks/gearbox
+
+- **goweight**
+    - Tool to analyze and troubleshoot a Go binary size
+    - https://github.com/jondot/goweight
+    - https://science.raphael.poss.name/go-executable-size-visualization-with-d3.html
+
+- **goreleaser**
+    - Deliver Go binaries as fast and easily as possible
+    - https://goreleaser.com/
+    - https://github.com/goreleaser/goreleaser
+
+- **gb**
+    - Project based build tool for Go
+    - https://getgb.io/
+    - https://getgb.io/docs/project/
+    - https://github.com/constabulary/gb/
+    
+
+- **gi**
+    - Just-in-time trace-compiled GoLang REPL
+    - https://github.com/gijit/gi
+    
+
+- **sally**
+    - Tiny HTTP server supporting custom Golang import paths
+    - https://github.com/uber-go/sally
+
+
+- **bodyclose**
+    - static analysis checks for res.Body being closed
+    - https://github.com/timakin/bodyclose
 
 ## DESKTOP
 
@@ -365,36 +401,6 @@ I am sharing publicly in case it helps others.
     - Mocking framework
     - https://github.com/golang/mock
 
-## GO DEV WORKFLOW
-
-- **goreleaser**
-    - Deliver Go binaries as fast and easily as possible
-    - https://goreleaser.com/
-    - https://github.com/goreleaser/goreleaser
-    
-
-- **gb**
-    - Project based build tool for Go
-    - https://getgb.io/
-    - https://getgb.io/docs/project/
-    - https://github.com/constabulary/gb/
-    
-
-- **gi**
-    - Just-in-time trace-compiled GoLang REPL
-    - https://github.com/gijit/gi
-    
-
-- **sally**
-    - Tiny HTTP server supporting custom Golang import paths
-    - https://github.com/uber-go/sally
-
-
-- **bodyclose**
-    - static analysis checks for res.Body being closed
-    - https://github.com/timakin/bodyclose
-
-
 ## JSON
     
 
@@ -448,6 +454,10 @@ I am sharing publicly in case it helps others.
 
 ## CONFIG
 
+- **config** 
+    - 12 factor config as a typesafe struct
+    - https://github.com/JeremyLoy/config
+
 - **palantir**
     - Yet Another Go Config Library
     - https://github.com/gojektech/palantir 
@@ -463,11 +473,9 @@ I am sharing publicly in case it helps others.
     - https://github.com/BurntSushi/toml
 
 ## REDIS
-
 - **Redigo**
     - Redis client 
     - https://github.com/gomodule/redigo
-
 
 - **redis_rate**
     - Rate limiting for go-redis 
@@ -487,6 +495,7 @@ I am sharing publicly in case it helps others.
 - **flaggy**
     - Command line parsing
     - https://github.com/integrii/flaggy
+    
     
 ## FILE MONITORING    
 
@@ -565,16 +574,31 @@ I am sharing publicly in case it helps others.
 - **crfs**    
     - Container Registry File System   
     - https://github.com/google/crfs 
+
+- **docker/machine**
+    - VM Drivers from Docker Machine
+    - https://github.com/docker/machine/tree/master/drivers
+
     
 ## VIRTUAL MACHINES (VM)
 - **govmomi**
     - VMware vSphere APIs
     - https://github.com/vmware/govmomi
 
+- **docker/machine**
+    - VM Drivers from Docker Machine
+    - https://github.com/docker/machine/tree/master/drivers
+
 ## TRAINING
 - **Ultimate Go**
     - Onsite training class
     - https://www.ardanlabs.com/ultimate-go/
+
+## FTP
+- **ftpgrab**
+    - App to grab your files from (S)FTP periodically
+    - https://ftpgrab.github.io/
+    - https://github.com/ftpgrab/ftpgrab
 
 ## GIT HOSTING OPTIONS
 
@@ -601,7 +625,10 @@ I am sharing publicly in case it helps others.
 - **quicktemplate**
     - Template engine
     - https://github.com/valyala/quicktemplate    
-    
+  
+- **htmlgo** 
+    - type-safe HTML writer
+    - https://github.com/julvo/htmlgo    
 
 ## CURRENTLY UNCATEGORIZED
 
