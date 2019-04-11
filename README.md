@@ -89,10 +89,40 @@ I am sharing publicly in case it helps others.
 ## ERROR HANDLING
 
 
+
+
+
+
+- **errors**
+    - error handling primitives 
+    - https://github.com/pkg/errors
+    
+- **errwrap**
+    - library for wrapping and querying errors
+    - https://github.com/hashicorp/errwrap
+    
+- **errgo**
+    - errors with tracebacks
+    - https://github.com/go-errgo/errgo/
+    
+- **errors**
+    - flexible error support library
+    - https://github.com/spacemonkeygo/errors
+    
+- **errors**
+    - Errors with stacktraces 
+    - https://github.com/go-errors/errors
+    
+- **multierr**
+    - Combine one or more Go errors together 
+    - https://github.com/uber-go/multierr
+    
 - **Valkyrie**
     - Handle multiple errors
     - https://github.com/juju/errors
     
+
+## CHARTS
 
 - **Charts**
     - https://github.com/wcharczuk/go-chart
