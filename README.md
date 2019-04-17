@@ -50,20 +50,16 @@ I am sharing publicly in case it helps others.
     - Lightweight Go desktop ui
     - https://github.com/jfreymuth/ui
 
-
 - **vugu**
     - Vue.js like in Go code
     - https://github.com/vugu/vugu
     - http://www.vugu.org/faq
     - http://www.vugu.org/doc
 
-
-
 - **go-flutter-desktop-embedder**
     - A Custom Flutter Engine Embedder for desktop
     - https://github.com/Drakirus/go-flutter-desktop-embedder
     - https://github.com/flutter/flutter
-
 
 - **go-flutter**
     - Flutter with GLFW for Windows, MacOS and Linux
@@ -71,27 +67,23 @@ I am sharing publicly in case it helps others.
     - https://github.com/go-gl/glfw
     - https://github.com/go-flutter-desktop/hover
 
-
 - **fyne**
     - Cross platform GUI in Go based on Material Design
     - https://github.com/fyne-io/fyne
-
 
 - **webview**
     - Cross-platform web view lib; uses WebKit or MSHTML
     - https://github.com/zserge/webview
 
-
 - **Lorca**
     - Cross-platform web view lib; uses Chrome
     - https://github.com/zserge/lorca
 
+- **qt**
+    - Qt bindings
+    - https://github.com/therecipe/qt
+
 ## ERROR HANDLING
-
-
-
-
-
 
 - **errors**
     - error handling primitives 
@@ -148,6 +140,11 @@ I am sharing publicly in case it helps others.
 - **go-loghttp**
     - Log http.Client's requests and responses
     - https://github.com/motemen/go-loghttp
+
+- **zerolog**
+    - Zero-allocation JSON logger
+    - https://github.com/rs/zerolog
+    
 
 ## AUTH
 
@@ -253,11 +250,18 @@ I am sharing publicly in case it helps others.
     - http://gorm.io 
     - https://github.com/jinzhu/gorm 
     
-
 - **gnorm**
     - database-first code generator for any language 
     - https://gnorm.org 
     - https://github.com/gnormal/gnorm
+
+- **xo**
+    - generate idiomatic Go code for SQL databases 
+    - https://github.com/xo/xo
+
+- **squirrel**
+    - Fluent SQL generation
+    - https://github.com/Masterminds/squirrel
 
 ## MAP/REDUCE
 
@@ -431,17 +435,29 @@ I am sharing publicly in case it helps others.
     - Mocking framework
     - https://github.com/golang/mock
 
-## JSON
+## YAML
+
+- **ghodss/yaml**
+    - marshal and unmarshal YAML
+    - https://github.com/ghodss/yaml
     
+- **mapdecode**
+    - YAML/JSON decoding in one place
+    - https://github.com/uber-go/mapdecode
+    
+- **config**
+    - YAML configuration
+    - https://github.com/uber-go/config
+
+
+## JSON   
 
 - **fastjson**
     - https://github.com/valyala/fastjson
     
-
 - **jsonq**
     - https://github.com/jmoiron/jsonq
     
-
 - **gojsonq**
     - https://github.com/thedevsaddam/gojsonq - JSON/XML query
     
@@ -460,6 +476,11 @@ I am sharing publicly in case it helps others.
     - Client and server implementation of JSON-RPC 2.0
     - https://www.jsonrpc.org/specification
     - https://github.com/sourcegraph/jsonrpc2
+
+- **zerolog**
+    - Zero-allocation JSON logger
+    - https://github.com/rs/zerolog
+    
 
 ## PROXY
 - **lightify**
@@ -609,6 +630,10 @@ I am sharing publicly in case it helps others.
     - VM Drivers from Docker Machine
     - https://github.com/docker/machine/tree/master/drivers
 
+- **container-structure-test**
+    - validate the structure of container images
+    - https://github.com/GoogleContainerTools/
+    
     
 ## VIRTUAL MACHINES (VM)
 - **govmomi**
@@ -659,6 +684,17 @@ I am sharing publicly in case it helps others.
 - **htmlgo** 
     - type-safe HTML writer
     - https://github.com/julvo/htmlgo    
+
+## WEB CRAWLING/SCRAPING
+
+- **soup** 
+    - Web scraper similar to Python's BeautifulSoup
+    - https://github.com/anaskhan96/soup    
+
+- **pholcus** 
+    - Distributed, concurrent web crawler
+    - https://github.com/henrylee2cn/pholcus
+
 
 ## CURRENTLY UNCATEGORIZED
 
@@ -991,6 +1027,24 @@ I am sharing publicly in case it helps others.
 - **red**
     - Terminal log analysis tools
     - https://github.com/antonmedv/red
+    
+- **dispatch**
+    - Deploy serverless apps
+    - https://github.com/vmware/dispatch
+    - https://vmware.github.io/dispatch/
+    
+- **go-hashids**
+    - generate short unique ids from integers
+    - https://github.com/speps/go-hashids
+    - https://hashids.org/
+    
+- **bimg**
+    - high-level image processing powered by libvips C library
+    - https://github.com/h2non/bimg
+           
+    
+    
+
 
 ## **TO BE CATEGORIZED**
 - http://labix.org/gocheck
