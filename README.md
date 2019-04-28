@@ -217,16 +217,6 @@ I am sharing publicly in case it helps others.
 - https://github.com/go-xorm/cmd
 
 
-### BuntDB
-- Embeddable in-memory key/value database w/custom indexing, geospatial support
-- https://github.com/tidwall/buntdb
-
-
-### BoltDB
-- Embedded key/value database
-- https://github.com/boltdb/bolt
-
-
 ### pop
 - CRUD operations, migrations, and queries
 - https://github.com/gobuffalo/pop
@@ -481,6 +471,10 @@ https://github.com/geohot/minikeyvalue
 
 
 ## JSON   
+
+### checkjson
+- JSON validation 
+- github.com/clbanning/checkjson
 
 ### koki/json
 - Forked encoding/json with validation and error context
