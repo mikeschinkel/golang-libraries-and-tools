@@ -83,6 +83,15 @@ I am sharing publicly in case it helps others.
 - Qt bindings
 - https://github.com/therecipe/qt
 
+## CHROME
+### Lorca
+- Cross-platform web view lib; uses Chrome
+- https://github.com/zserge/lorca
+
+### chromedp
+- Drive browsers supporting the Chrome DevTools Protocol.
+- https://github.com/chromedp/chromedp
+
 ## ERROR HANDLING
 
 ### errors
@@ -263,21 +272,42 @@ I am sharing publicly in case it helps others.
 - Fluent SQL generation
 - https://github.com/Masterminds/squirrel
 
-## MAP/REDUCE
 
+## KEY/VALUE STORES
+
+### minikeyvalue
+- Distributed key value store 
+https://github.com/geohot/minikeyvalue
+
+### LibKV
+- Distributed key/value store abstraction library
+- https://github.com/docker/libkv
+
+### moss
+- A simple, fast, ordered, persistable, key-val storage library
+- https://github.com/couchbase/moss
+
+### BuntDB
+- Embeddable in-memory key/value database w/custom indexing, geospatial support
+- https://github.com/tidwall/buntdb
+
+### BoltDB
+- Embedded key/value database
+- https://github.com/boltdb/bolt
+
+
+## MAP/REDUCE
 
 ### glow/gleam
 - Map/Reduce like distributed computation system
 - https://github.com/chrislusf/glow
 - https://github.com/chrislusf/gleam
 
-
 ### corral
 -  A serverless MapReduce framework written for AWS Lambda
 - https://github.com/bcongdon/corral
 
 ## MICROSERVICES
-
 
 ### GoKit
 - Microservices toolkit
@@ -452,6 +482,10 @@ I am sharing publicly in case it helps others.
 
 ## JSON   
 
+### koki/json
+- Forked encoding/json with validation and error context
+- https://github.com/koki/json
+
 ### fastjson
 - https://github.com/valyala/fastjson
 
@@ -460,6 +494,10 @@ I am sharing publicly in case it helps others.
 
 ### gojsonq
 - https://github.com/thedevsaddam/gojsonq - JSON/XML query
+
+### jingo
+Fast(?) JSON encoder
+https://github.com/bet365/jingo
 
 
 ### jp
@@ -624,6 +662,13 @@ I am sharing publicly in case it helps others.
 - https://github.com/micro/go-micro
 - https://jaxenter.com/go-micro-microservice-framework-154603.html
 
+##DEBUGGING
+
+### docker-debug
+- Container-in-container debugger
+- https://github.com/zeromake/docker-debug
+
+
 
 ## CONTAINERS
 ### harbor
@@ -642,6 +687,10 @@ I am sharing publicly in case it helps others.
 ### docker/machine
 - VM Drivers from Docker Machine
 - https://github.com/docker/machine/tree/master/drivers
+
+### docker-debug
+- Container-in-container debugger
+- https://github.com/zeromake/docker-debug
 
 ### container-structure-test
 - validate the structure of container images
@@ -708,6 +757,14 @@ I am sharing publicly in case it helps others.
 - Distributed, concurrent web crawler
 - https://github.com/henrylee2cn/pholcus
 
+## EXCEL FILES
+
+### excelize
+- Read and write Excel files
+- https://github.com/360EntSecGroup-Skylar/excelize
+
+
+
 
 ## CURRENTLY UNCATEGORIZED
 
@@ -765,14 +822,6 @@ I am sharing publicly in case it helps others.
 - https://github.com/etsy/statsd
 - https://codeascraft.com/2011/02/15/measure-anything-measure-everything/
 - http://code.flickr.net/2008/10/27/counting-timing/
-
-### LibKV
-- Distributed key/value store abstraction library
-- https://github.com/docker/libkv
-
-### moss
-- A simple, fast, ordered, persistable, key-val storage library
-- https://github.com/couchbase/moss
 
 ### GOST
 - GO Simple Tunnel - a simple tunnel written in golang
@@ -848,10 +897,6 @@ I am sharing publicly in case it helps others.
 ### sftp
 - SFTP support for the go.crypto/ssh package
 - https://github.com/pkg/sftp
-
-### excelize
-- Read and write Excel files
-- https://github.com/360EntSecGroup-Skylar/excelize
 
 ### google-cloud-go
 - Google Cloud Client Libraries for Go 
