@@ -9,6 +9,11 @@ I am sharing publicly in case it helps others.
 
 ## GO DEV WORKFLOW
 
+### igo
+- Interactive REPL
+- https://github.com/yunabe/lgo
+- https://medium.com/@yunabe/interactive-go-programming-with-jupyter-93fbf089aff1
+
 ### goreportcard
 - Linter and vetter for Git repos containing Go code
 - https://goreportcard.com/report/github.com/gearboxworks/gearbox
@@ -29,20 +34,23 @@ I am sharing publicly in case it helps others.
 - https://getgb.io/docs/project/
 - https://github.com/constabulary/gb/
 
+### errcheck
+- CLI to check that you checked errors in your source code
+- https://github.com/kisielk/errcheck
 
 ### gi
 - Just-in-time trace-compiled GoLang REPL
 - https://github.com/gijit/gi
 
-
-### sally
-- Tiny HTTP server supporting custom Golang import paths
-- https://github.com/uber-go/sally
-
-
 ### bodyclose
 - static analysis checks for res.Body being closed
 - https://github.com/timakin/bodyclose
+
+## sshcode
+- Run VS Code on any server over SSH
+- https://github.com/cdr/sshcode
+- https://github.com/cdr/code-server
+
 
 ## DESKTOP
 
@@ -216,7 +224,6 @@ I am sharing publicly in case it helps others.
 - CLI tools for database operations
 - https://github.com/go-xorm/cmd
 
-
 ### pop
 - CRUD operations, migrations, and queries
 - https://github.com/gobuffalo/pop
@@ -226,6 +233,14 @@ I am sharing publicly in case it helps others.
 - Extensions to built-in database/sql package
 - http://jmoiron.github.io/sqlx/
 - https://github.com/jmoiron/sqlx
+
+
+## AMAZON/S3/etc.
+
+
+### goofys
+- POSIX-ish Amazon S3 file system
+- https://github.com/kahing/goofys
 
 
 ### gobackup
@@ -261,6 +276,18 @@ I am sharing publicly in case it helps others.
 ### squirrel
 - Fluent SQL generation
 - https://github.com/Masterminds/squirrel
+
+## MIGRATIONS
+
+### pop
+- CRUD operations, migrations, and queries
+- https://github.com/gobuffalo/pop
+
+### migrate
+- CLI and library for database migrations.
+- https://github.com/golang-migrate/migrate
+
+
 
 
 ## KEY/VALUE STORES
@@ -529,6 +556,26 @@ https://github.com/bet365/jingo
 - https://github.com/dataux/dataux     
 - Like https://prestodb.io but in Go.
 
+## HTTP SERVER
+
+### httprouter
+- HTTP request router emphasizing scalability 
+- https://github.com/julienschmidt/httprouter
+
+### sally
+- Tiny HTTP server supporting custom Golang import paths
+- https://github.com/uber-go/sally
+
+### goji
+- HTTP request multiplexer
+- http://goji.io 
+- https://github.com/goji/goji
+
+### Gorilla Mux
+- URL router and dispatcher
+- https://github.com/gorilla/mux
+
+
 ## HTTP CLIENT
 
 ### heimdall
@@ -725,12 +772,18 @@ https://github.com/bet365/jingo
 - https://gitea.io
 
 ## CACHING
+
 ### Cache2Go
 - Concurrency-safe golang caching library with expiration capabilities.
 - https://github.com/uber-go/ratelimit
+
 ### kache
 - Redis-compatible in-memory cache
 - https://github.com/kasvith/kache
+
+### bigcache
+- Efficient cache for gigabytes of data
+- https://github.com/allegro/bigcache
 
 # TEMPLATING
 ### quicktemplate
