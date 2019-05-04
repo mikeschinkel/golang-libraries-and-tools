@@ -5,7 +5,8 @@ keep track of available libraries and tools for Go.
 I am sharing publicly in case it helps others. 
 
 ## OTHER LISTS
-### https://awesome-go.com/
+- https://awesome-go.com/
+- https://github.com/golang/go/wiki/GoGenerateTools
 
 ## GO DEV WORKFLOW
 
@@ -191,8 +192,8 @@ I am sharing publicly in case it helps others.
 - Multi-Provider Authentication for Go
 - https://github.com/markbates/goth
 
-## DATABASE
 
+## DATABASE
 
 ### dbx
 - codegen-based database wrapper written in Go
@@ -212,6 +213,10 @@ I am sharing publicly in case it helps others.
 ### sqlboiler
 - ORM generator for database access
 - https://github.com/volatiletech/sqlboiler
+
+### go-sqlbuilder
+- SQL string builder library plus ORM
+- https://github.com/huandu/go-sqlbuilder
 
 
 ### dataux
@@ -1154,6 +1159,12 @@ https://github.com/bet365/jingo
 ## aurora
 - ANSI colors for Printf()/Sprintf()
 - https://github.com/logrusorgru/aurora
+
+## OpenAPI
+
+### oapi-codegen
+- Generate Go client and server boilerplate from OpenAPI 3 specifications
+- https://github.com/deepmap/oapi-codegen
 
 
 ## ### TO BE CATEGORIZED
