@@ -44,7 +44,7 @@ I am sharing publicly in case it helps others.
 - https://github.com/gijit/gi
 
 ### bodyclose
-- static analysis checks for res.Body being closed
+- static analysis checks for res.Body being closedœ
 - https://github.com/timakin/bodyclose
 
 ## sshcode
@@ -1160,14 +1160,38 @@ https://github.com/bet365/jingo
 - ANSI colors for Printf()/Sprintf()
 - https://github.com/logrusorgru/aurora
 
-## OpenAPI
+## OPENAPI
 
 ### oapi-codegen
 - Generate Go client and server boilerplate from OpenAPI 3 specifications
 - https://github.com/deepmap/oapi-codegen
 
 
-## ### TO BE CATEGORIZED
+## BITTORRENT
+- https://halfbyte.io/a-bittorrent-client-in-go-part-1-torrent-file-and-announcement/
+
+### anacrolix/torrent
+- BitTorrent-client package and utilities
+- https://github.com/anacrolix/torrent
+
+### chihaya
+- Customizable, multi-protocol BitTorrent Tracker
+- https://github.com/chihaya/chihaya
+
+### Taipei Torrent
+- Bittorrent client 
+- https://github.com/jackpal/Taipei-Torrent
+
+### torsniff
+- A BitTorrent network sniffer 
+- https://github.com/fanpei91/torsniff
+
+### bencode-go
+- Binding for encode/decode data in format used by BitTorrent
+- https://github.com/jackpal/bencode-go
+
+
+## TO BE CATEGORIZED
 - http://labix.org/gocheck
 - https://benjamincongdon.me/blog/2018/03/01/Scraping-the-Web-in-Golang-with-Colly-and-Goquery/
 - https://chronoxor.github.io/FastBinaryEncoding/
@@ -1186,7 +1210,6 @@ https://github.com/bet365/jingo
 - https://github.com/davecheney/xattr
 - https://github.com/elastic/go-elasticsearch
 - https://github.com/essentialkaos/gomakegen
-- https://github.com/fanpei91/torsniff - Bittorrent
 - https://github.com/getlantern/systray
 - https://github.com/go-task/task - Task runner
 - https://github.com/google/flatbuffers/tree/master/go
