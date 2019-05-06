@@ -708,7 +708,7 @@ https://github.com/bet365/jingo
 - https://github.com/micro/go-micro
 - https://jaxenter.com/go-micro-microservice-framework-154603.html
 
-##DEBUGGING
+## DEBUGGING
 
 ### docker-debug
 - Container-in-container debugger
@@ -814,6 +814,37 @@ https://github.com/bet365/jingo
 ### excelize
 - Read and write Excel files
 - https://github.com/360EntSecGroup-Skylar/excelize
+
+
+## OPENAPI
+
+### oapi-codegen
+- Generate Go client and server boilerplate from OpenAPI 3 specifications
+- https://github.com/deepmap/oapi-codegen
+
+
+## BITTORRENT
+- https://halfbyte.io/a-bittorrent-client-in-go-part-1-torrent-file-and-announcement/
+
+### anacrolix/torrent
+- BitTorrent-client package and utilities
+- https://github.com/anacrolix/torrent
+
+### chihaya
+- Customizable, multi-protocol BitTorrent Tracker
+- https://github.com/chihaya/chihaya
+
+### Taipei Torrent
+- Bittorrent client 
+- https://github.com/jackpal/Taipei-Torrent
+
+### torsniff
+- A BitTorrent network sniffer 
+- https://github.com/fanpei91/torsniff
+
+### bencode-go
+- Binding for encode/decode data in format used by BitTorrent
+- https://github.com/jackpal/bencode-go
 
 
 
@@ -1038,8 +1069,8 @@ https://github.com/bet365/jingo
 - AMQP client library
 - Internet Protocol for Business Messaging
 - https://www.youtube.com/watch?v=SXZJau292Uw
-- https://www.amqp.org/
 - https://github.com/vcabbage/amqp
+- https://www.amqp.org/
 
 ### tui-go
 - UI library for terminal apps
@@ -1159,37 +1190,6 @@ https://github.com/bet365/jingo
 ## aurora
 - ANSI colors for Printf()/Sprintf()
 - https://github.com/logrusorgru/aurora
-
-## OPENAPI
-
-### oapi-codegen
-- Generate Go client and server boilerplate from OpenAPI 3 specifications
-- https://github.com/deepmap/oapi-codegen
-
-
-## BITTORRENT
-- https://halfbyte.io/a-bittorrent-client-in-go-part-1-torrent-file-and-announcement/
-
-### anacrolix/torrent
-- BitTorrent-client package and utilities
-- https://github.com/anacrolix/torrent
-
-### chihaya
-- Customizable, multi-protocol BitTorrent Tracker
-- https://github.com/chihaya/chihaya
-
-### Taipei Torrent
-- Bittorrent client 
-- https://github.com/jackpal/Taipei-Torrent
-
-### torsniff
-- A BitTorrent network sniffer 
-- https://github.com/fanpei91/torsniff
-
-### bencode-go
-- Binding for encode/decode data in format used by BitTorrent
-- https://github.com/jackpal/bencode-go
-
 
 ## TO BE CATEGORIZED
 - http://labix.org/gocheck
