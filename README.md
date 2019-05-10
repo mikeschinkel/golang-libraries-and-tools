@@ -297,6 +297,43 @@ I am sharing publicly in case it helps others.
 - Fluent SQL generation
 - https://github.com/Masterminds/squirrel
 
+
+## DISTRIBUTED SERVICES
+
+### rqlite
+- Distributed relational database built on SQLite. 
+- https://github.com/rqlite/rqlite
+
+### minikeyvalue
+- Distributed key value store 
+https://github.com/geohot/minikeyvalue
+
+### LibKV
+- Distributed key/value store abstraction library
+- https://github.com/docker/libkv
+
+### glow/gleam
+- Map/Reduce like distributed computation system
+- https://github.com/chrislusf/glow
+- https://github.com/chrislusf/gleam
+
+### pholcus 
+- Distributed, concurrent web crawler
+- https://github.com/henrylee2cn/pholcus
+
+### machinery
+- An asynchronous task queue/job queue based on distributed message passing.
+- https://github.com/RichardKnop/machinery    
+
+### mgmt
+- Next generation distributed, event-driven, parallel config management
+- Like Puppet, Ansible (I think)
+- https://github.com/purpleidea/mgmt
+
+### Riot
+- Distributed, Simple and efficient search engine
+- https://github.com/go-ego/riot
+
 ## MIGRATIONS
 
 ### pop
