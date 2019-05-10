@@ -193,6 +193,17 @@ I am sharing publicly in case it helps others.
 - https://github.com/markbates/goth
 
 
+## SQLITE
+
+### go-sqlite3
+- sqlite3 driver for database/sql
+- https://github.com/mattn/go-sqlite3
+
+### rqlite
+- Distributed relational database built on SQLite. 
+- https://github.com/rqlite/rqlite
+
+
 ## DATABASE
 
 ### dbx
@@ -218,12 +229,10 @@ I am sharing publicly in case it helps others.
 - SQL string builder library plus ORM
 - https://github.com/huandu/go-sqlbuilder
 
-
 ### dataux
 - Federated mysql compatible proxy to elasticsearch, mongo, cassandra, big-table, google datastore
 - https://github.com/dataux/dataux     
 - Like https://prestodb.io but in Go.
-
 
 ### cmd
 - CLI tools for database operations
@@ -233,15 +242,21 @@ I am sharing publicly in case it helps others.
 - CRUD operations, migrations, and queries
 - https://github.com/gobuffalo/pop
 
-
-### SQLX
+### sqlx
 - Extensions to built-in database/sql package
 - http://jmoiron.github.io/sqlx/
 - https://github.com/jmoiron/sqlx
 
+### go-sqlite3
+- sqlite3 driver for database/sql
+- https://github.com/mattn/go-sqlite3
+
+### rqlite
+- Distributed relational database built on SQLite. 
+- https://github.com/rqlite/rqlite
+
 
 ## AMAZON/S3/etc.
-
 
 ### goofys
 - POSIX-ish Amazon S3 file system
@@ -674,7 +689,7 @@ https://github.com/bet365/jingo
 
 
 ### MsgQueue
-- Golang task/job queue with SQS & IronMQ backends 
+- Task/job queue with SQS & IronMQ backends 
 - https://github.com/go-msgqueue/msgqueue
 
 
@@ -906,7 +921,7 @@ https://github.com/bet365/jingo
 - https://github.com/murlokswarm/app
 
 ### Riot
-- Open Source, Distributed, Simple and efficient search engine
+- Distributed, Simple and efficient search engine
 - https://github.com/go-ego/riot
 
 ### Caire
@@ -1236,7 +1251,7 @@ https://github.com/bet365/jingo
 
 - https://github.com/juju/ratelimit
 - https://github.com/ktr0731/go-fuzzyfinder
-- https://github.com/mattn/go-sqlite3 
+ 
 - https://www.youtube.com/watch?v=RqubKSF3wig
 - https://github.com/mgechev/revive 
 - Linter
