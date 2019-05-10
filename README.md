@@ -846,7 +846,24 @@ https://github.com/bet365/jingo
 - Binding for encode/decode data in format used by BitTorrent
 - https://github.com/jackpal/bencode-go
 
+## MESSAGE BUS
 
+### mustafaturan/bus
+- Minimal message bus for internal communication
+- https://github.com/mustafaturan/bus
+
+### gogolfing/cbus
+- Command bus for executing arbitrary commands
+- https://github.com/gogolfing/cbus
+
+### asaskevich/EventBus
+- Lightweight eventbus with async compatibility for Go
+- https://github.com/asaskevich/EventBus
+
+### vardius/message-bus
+- Simple async message bus 
+- https://github.com/vardius/message-bus
+- http://rafallorenz.com/message-bus
 
 
 ## CURRENTLY UNCATEGORIZED
