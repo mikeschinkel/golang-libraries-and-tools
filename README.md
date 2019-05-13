@@ -8,6 +8,14 @@ I am sharing publicly in case it helps others.
 - https://awesome-go.com/
 - https://github.com/golang/go/wiki/GoGenerateTools
 
+## UTILITY
+
+### spf13/cast
+- Safe and easy casting between types
+- https://github.com/spf13/cast
+
+
+
 ## GO DEV WORKFLOW
 
 ### igo
@@ -919,6 +927,12 @@ https://github.com/bet365/jingo
 
 
 ## CURRENTLY UNCATEGORIZED
+
+### flipt
+- Feature flag app 
+- https://github.com/markphelps/flipt
+- https://flipt.dev
+
 
 ### ksuid
 - Sortable GUIDs
