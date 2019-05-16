@@ -353,6 +353,18 @@ https://github.com/geohot/minikeyvalue
 - https://github.com/golang-migrate/migrate
 
 
+## SEARCH ENGINE
+### hound
+- Code searching
+- https://github.com/hound-search/hound
+
+### google/codesearch
+- Indexed regexp search over large file trees 
+- https://github.com/google/codesearch
+
+### Riot
+- Distributed, Simple and efficient search engine
+- https://github.com/go-ego/riot
 
 
 ## KEY/VALUE STORES
