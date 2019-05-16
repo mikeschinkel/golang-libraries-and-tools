@@ -881,11 +881,86 @@ https://github.com/bet365/jingo
 - Distributed, concurrent web crawler
 - https://github.com/henrylee2cn/pholcus
 
+
+## WEB CRAWLING/SCRAPING
+
+### Colly
+- Web scraping framework
+- https://github.com/gocolly/colly
+- http://go-colly.org/
+- https://benjamincongdon.me/blog/2018/03/01/Scraping-the-Web-in-Golang-with-Colly-and-Goquery/
+
+### goquery
+- Like jQuery
+- https://github.com/PuerkitoBio/goquery
+
+### pholcus 
+- Distributed, concurrent web crawler
+- https://github.com/henrylee2cn/pholcus
+
+### go-scrapy
+- Scrapy, but in Go
+https://github.com/kabelsea/go-scrapy
+
+### scrapy-go
+- Scrapy, but in Go
+- https://github.com/frodoking/scrapy-go
+
+### gocrawl 
+- Polite, slim and concurrent web crawler.
+- https://github.com/PuerkitoBio/gocrawl
+
+### fetchbot 
+- Web crawler, follows robots.txt
+- https://github.com/PuerkitoBio/fetchbot
+
+### go_spider 
+- Concurrent Crawler(spider) framework.
+- https://github.com/hu17889/go_spider
+
+### dht 
+- BitTorrent DHT Protocol && DHT Spider.
+- https://github.com/shiyanhui/dht
+
+### scrape 
+- High-level interface for web scraping
+- https://github.com/yhat/scrape
+
+### creeper 
+- Crawler Framework
+- https://github.com/wspl/creeper
+
+### ferret 
+- Declarative web scraping
+- https://github.com/MontFerret/ferret
+- https://www.montferret.dev/
+
+
+
+
+
 ## EXCEL FILES
 
 ### excelize
 - Read and write Excel files
 - https://github.com/360EntSecGroup-Skylar/excelize
+
+## ENCRYPTION 
+### GopenPGP
+- High-level OpenPGP library 
+- https://github.com/ProtonMail/gopenpgp
+- https://gopenpgp.org/
+- https://protonmail.com/blog/openpgp-golang/
+
+### crypto
+- Modified Go cryptography libraries
+- https://github.com/ProtonMail/crypto
+- https://gopenpgp.org/
+- https://protonmail.com/blog/openpgp-golang/
+
+### gorilla/securecookie
+- Encodes/decodes/encrypts cookie values
+- https://github.com/gorilla/securecookie
 
 
 ## OPENAPI
@@ -939,6 +1014,10 @@ https://github.com/bet365/jingo
 
 
 ## CURRENTLY UNCATEGORIZED
+
+### urlesc
+- URL escaping as per RFC3986
+- https://github.com/PuerkitoBio/urlesc
 
 ### flipt
 - Feature flag app 
@@ -1288,7 +1367,6 @@ https://github.com/bet365/jingo
 
 ## TO BE CATEGORIZED
 - http://labix.org/gocheck
-- https://benjamincongdon.me/blog/2018/03/01/Scraping-the-Web-in-Golang-with-Colly-and-Goquery/
 - https://chronoxor.github.io/FastBinaryEncoding/
 - https://gaia-pipeline.io/ 
 - Pipelines in any language
