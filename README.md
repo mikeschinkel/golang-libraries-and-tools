@@ -63,6 +63,10 @@ I am sharing publicly in case it helps others.
 
 ## DESKTOP
 
+### App
+- Package to build MacOS and Web apps using Go, HTML and CSS
+- https://github.com/murlokswarm/app
+
 ### ui
 - Lightweight Go desktop ui
 - https://github.com/jfreymuth/ui
@@ -1012,6 +1016,35 @@ https://github.com/kabelsea/go-scrapy
 - https://github.com/vardius/message-bus
 - http://rafallorenz.com/message-bus
 
+## HTML
+
+### bluemonday
+- HTML sanitizer to scrub user generated content of XSS
+- https://github.com/microcosm-cc/bluemonday
+
+### App
+- Package to build MacOS and Web apps using Go, HTML and CSS
+- https://github.com/murlokswarm/app
+
+### htmlgo 
+- type-safe HTML writer
+- https://github.com/julvo/htmlgo    
+
+## gorilla/schema
+- Fills Struct with HTML form values
+- https://github.com/gorilla/schema 
+
+### go.rice/boxedRice
+- Work with resources: html,js,css,images,templates, etc.
+- https://github.com/bypasslane/boxedRice
+- https://github.com/JonathanTech/go.rice
+- https://github.com/GeertJohan/go.rice
+
+## gobuffalo/tags
+- HTML tags
+- https://github.com/gobuffalo/tags 
+
+
 
 ## CURRENTLY UNCATEGORIZED
 
@@ -1057,10 +1090,6 @@ https://github.com/kabelsea/go-scrapy
 - Potential useful for automated regression testing?
 - https://github.com/slotix/dataflowkit
 - https://dataflowkit.org/
-
-### App
-- Package to build MacOS and Web apps using Go, HTML and CSS
-- https://github.com/murlokswarm/app
 
 ### Riot
 - Distributed, Simple and efficient search engine
@@ -1257,12 +1286,6 @@ https://github.com/kabelsea/go-scrapy
 ### skylark
 - Skylark configuration language
 - https://github.com/google/skylark
-
-### go.rice/boxedRice
-- Work with resources: html,js,css,images,templates, etc.
-- https://github.com/bypasslane/boxedRice
-- https://github.com/JonathanTech/go.rice
-- https://github.com/GeertJohan/go.rice
 
 ### go-tftp
 - Go TFTP library
