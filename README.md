@@ -1034,7 +1034,7 @@ https://github.com/kabelsea/go-scrapy
 - type-safe HTML writer
 - https://github.com/julvo/htmlgo    
 
-## gorilla/schema
+### gorilla/schema
 - Fills Struct with HTML form values
 - https://github.com/gorilla/schema 
 
@@ -1044,10 +1044,9 @@ https://github.com/kabelsea/go-scrapy
 - https://github.com/JonathanTech/go.rice
 - https://github.com/GeertJohan/go.rice
 
-## gobuffalo/tags
+### gobuffalo/tags
 - HTML tags
 - https://github.com/gobuffalo/tags 
-
 
 
 ## CURRENTLY UNCATEGORIZED
