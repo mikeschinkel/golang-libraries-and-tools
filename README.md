@@ -1052,6 +1052,18 @@ https://github.com/kabelsea/go-scrapy
 
 ## CURRENTLY UNCATEGORIZED
 
+### olebedev/emitter
+- Emits events with wildcard, predicates, cancellation
+- https://github.com/olebedev/emitter
+
+### sqweek/dialog
+- cross-platform dialog API for go-lang
+- https://github.com/sqweek/dialog
+
+### glycerine/libzipfs
+- Ship a zip file of media resources inside your golang web-app for complete standalone one-binary deployment
+- https://github.com/glycerine/libzipfs
+
 ### urlesc
 - URL escaping as per RFC3986
 - https://github.com/PuerkitoBio/urlesc
@@ -1306,6 +1318,10 @@ https://github.com/kabelsea/go-scrapy
 ### Azure SDK for Go Samples
 - Samples for connecting to Azure
 - https://github.com/Azure-Samples/azure-sdk-for-go-samples
+
+### kardianos/service
+- Run go programs as a service on major platforms
+- https://github.com/kardianos/service
 
 ### service-pattern-go
 -  S.O.L.I.D. principles with REST API arch w/D.I. and mocking 
