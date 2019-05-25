@@ -438,6 +438,10 @@ https://github.com/geohot/minikeyvalue
 
 ## WEB FRAMEWORKS
 
+### web.go
+- Create web applications 
+- https://github.com/hoisie/web
+- https://hoisie.github.io/web/
 
 ### echo
 - Minimalist/API web framework 
