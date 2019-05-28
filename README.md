@@ -715,7 +715,6 @@ https://github.com/bet365/jingo
 - Command line parser
 - https://github.com/alecthomas/kingpin
 
-
 ### flaggy
 - Command line parsing
 - https://github.com/integrii/flaggy
@@ -723,6 +722,10 @@ https://github.com/bet365/jingo
 ### go-flags
 - command line option parser 
 - https://github.com/jessevdk/go-flags
+
+### promptui
+- Interactive prompt for CLI apps
+- https://github.com/manifoldco/promptui
 
 
 ## FILE MONITORING    
@@ -1048,6 +1051,79 @@ https://github.com/kabelsea/go-scrapy
 - HTML tags
 - https://github.com/gobuffalo/tags 
 
+## PROGRESS BAR
+
+## cheggaaa/pb
+- Console progress bar 
+- https://github.com/cheggaaa/pb
+
+### vbauerster/mpb
+- Multi progress bar 
+- https://github.com/vbauerster/mpb
+
+### uiprogress
+- Renders progress bars in terminal apps
+- https://github.com/gosuri/uiprogress
+
+## TEXT USER INTERFACES
+- TUI comparison article
+- https://appliedgo.net/tui/
+
+### tview
+- Interactive widgets for terminal-based UIs
+- https://github.com/rivo/tview
+
+### tui-go
+- UI library for terminal apps
+- https://github.com/marcusolsson/tui-go
+
+### promptui
+- Interactive prompt for CLI apps
+- https://github.com/manifoldco/promptui
+
+### termui
+- Golang terminal dashboard
+- https://github.com/gizak/termui
+
+### gocui
+- For creating console user interfaces
+- https://github.com/jroimartin/gocui
+
+### clui
+- Terminal UI toolbox with controls
+- https://github.com/VladimirMarkelov/clui
+
+### tcell
+- Alternate terminal package
+- https://github.com/gdamore/tcell
+- https://godoc.org/github.com/gdamore/tcell
+
+### termbox-go [unmaintained]
+- Pure Go termbox implementation 
+- https://github.com/nsf/termbox-go
+
+### modernnc.org/wm
+- terminal window manager
+- https://godoc.org/modernc.org/wm
+
+### termloop
+- Terminal-based game engine
+- https://github.com/JoelOtter/termloop
+
+
+## GO-BASED APPS
+### hecate
+- Hex Editor 
+- https://github.com/evanmiller/hecate
+
+### micro
+- terminal-based text editor 
+- https://github.com/zyedidia/micro/
+- https://micro-editor.github.io
+
+### viktomas/godu
+- terminal-based file/folder size Discover large files/folders  
+- https://github.com/viktomas/godu 
 
 ## CURRENTLY UNCATEGORIZED
 
@@ -1289,10 +1365,6 @@ https://github.com/kabelsea/go-scrapy
 - https://www.youtube.com/watch?v=SXZJau292Uw
 - https://github.com/vcabbage/amqp
 - https://www.amqp.org/
-
-### tui-go
-- UI library for terminal apps
-- https://github.com/marcusolsson/tui-go
 
 ### generics
 - Implements type G interface{}
