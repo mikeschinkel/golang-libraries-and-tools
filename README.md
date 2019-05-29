@@ -18,6 +18,10 @@ I am sharing publicly in case it helps others.
 
 ## GO DEV WORKFLOW
 
+### gomacro
+- Interactive Go interpreter and debugger 
+- https://github.com/cosmos72/gomacro
+
 ### igo
 - Interactive REPL
 - https://github.com/yunabe/lgo
@@ -1124,6 +1128,40 @@ https://github.com/kabelsea/go-scrapy
 ### viktomas/godu
 - terminal-based file/folder size Discover large files/folders  
 - https://github.com/viktomas/godu 
+
+### noverify
+- Linter for PHP
+- https://github.com/VKCOM/noverify
+
+## PHP-RELATED
+
+### php-go
+- Call Go code from PHP
+- https://github.com/arnaud-lb/php-go
+
+### php-parser
+- PHP parser 
+- https://github.com/z7zmey/php-parser
+- https://php-parser.com
+
+### stephens2424/php
+- Parser for PHP
+- https://github.com/stephens2424/php
+
+### noverify
+- Linter for PHP
+- https://github.com/VKCOM/noverify
+
+
+### roadrunner
+- PHP application server, load-balancer and process manager
+- https://github.com/spiral/roadrunner
+- https://roadrunner.dev/
+
+### goridge
+- PHP-to-Golang IPC bridge
+- https://github.com/spiral/goridge
+
 
 ## CURRENTLY UNCATEGORIZED
 
