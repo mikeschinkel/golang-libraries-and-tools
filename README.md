@@ -18,6 +18,23 @@ I am sharing publicly in case it helps others.
 
 ## GO DEV WORKFLOW
 
+### go-spew
+- Deep pretty printer for debugging data structures 
+- https://github.com/davecgh/go-spew
+
+### utter
+- Deep pretty printer for debugging data structures [FORK]
+- https://github.com/kortschak/utter
+
+### go-callvis
+- Visualize call graph of a program
+- https://github.com/TrueFurby/go-callvis
+- https://truefurby.github.io/go-callvis/
+
+### go-plugin
+- Plugin system over RPC 
+- https://github.com/hashicorp/go-plugin
+
 ### gomacro
 - Interactive Go interpreter and debugger 
 - https://github.com/cosmos72/gomacro
@@ -164,6 +181,9 @@ I am sharing publicly in case it helps others.
 - Structured, pluggable logging for Go.
 - https://github.com/sirupsen/logrus
 
+### gommon
+- Common packages: Bytes, Color, Logging
+- https://github.com/labstack/gommon
 
 ### zap
 - Structured, leveled logging 
@@ -271,6 +291,10 @@ I am sharing publicly in case it helps others.
 - Distributed relational database built on SQLite. 
 - https://github.com/rqlite/rqlite
 
+## GITHUB 
+### githubv4
+- Client library for accessing GitHub GraphQL API v4
+- https://github.com/shurcooL/githubv4
 
 ## AMAZON/S3/etc.
 
@@ -278,6 +302,9 @@ I am sharing publicly in case it helps others.
 - POSIX-ish Amazon S3 file system
 - https://github.com/kahing/goofys
 
+### yig
+- An open source object storage server with Amazon S3 compatible API
+https://github.com/journeymidnight/yig
 
 ### gobackup
 - Simple tool for backup your databases, files to FTP / SCP / S3 storages.
@@ -588,6 +615,10 @@ https://github.com/geohot/minikeyvalue
 
 ## JSON   
 
+### gojay
+- JSON encoder/decoder with stream API 
+- https://github.com/francoispqt/gojay
+
 ### checkjson
 - JSON validation 
 - github.com/clbanning/checkjson
@@ -671,6 +702,19 @@ https://github.com/bet365/jingo
 - Enhanced HTTP client 
 - https://github.com/gojektech/heimdall
 
+## CONFIGURATION MANAGEMENT
+
+### harvester
+- Harvest configuration, watch and notify subscriber
+- https://github.com/beatlabs/harvester
+
+### mgmt
+- Next generation distributed, event-driven, parallel config management
+- Like Puppet, Ansible (I think)
+- https://github.com/purpleidea/mgmt
+
+
+
 ## CONFIG
 
 ### config 
@@ -751,7 +795,6 @@ https://github.com/bet365/jingo
 - Task Schedular
 - https://github.com/rakanalh/scheduler
 
-
 ### nomad
 - A single binary that schedules applications and services on Linux, Windows, and Mac. 
 - It is an open source scheduler that uses a declarative job file for scheduling virtualized, containerized, and standalone applications.
@@ -759,15 +802,17 @@ https://github.com/bet365/jingo
 - https://www.nomadproject.io/
 - See also: https://github.com/jrasell/levant
 
-
 ### MsgQueue
 - Task/job queue with SQS & IronMQ backends 
 - https://github.com/go-msgqueue/msgqueue
 
-
 ### machinery
 - An asynchronous task queue/job queue based on distributed message passing.
-- https://github.com/RichardKnop/machinery    
+- https://github.com/RichardKnop/machinery
+
+### fireworq
+- job queue service with HTTP API
+- https://github.com/fireworq/fireworq    
 
 ## TASK RUNNING
 
@@ -794,6 +839,11 @@ https://github.com/bet365/jingo
 - https://micro.mu
 - https://github.com/micro/go-micro
 - https://jaxenter.com/go-micro-microservice-framework-154603.html
+
+### go-plugin
+- Plugin system over RPC 
+- https://github.com/hashicorp/go-plugin
+
 
 ## DEBUGGING
 
@@ -896,8 +946,10 @@ https://github.com/bet365/jingo
 - Distributed, concurrent web crawler
 - https://github.com/henrylee2cn/pholcus
 
+### geziyor
+- Web crawling & scraping framework 
+- https://github.com/geziyor/geziyor
 
-## WEB CRAWLING/SCRAPING
 
 ### Colly
 - Web scraping framework
@@ -1081,6 +1133,10 @@ https://github.com/kabelsea/go-scrapy
 - UI library for terminal apps
 - https://github.com/marcusolsson/tui-go
 
+### survey
+- terminal library for CLI apps, supports windows, posix
+- https://github.com/AlecAivazis/survey
+
 ### promptui
 - Interactive prompt for CLI apps
 - https://github.com/manifoldco/promptui
@@ -1255,11 +1311,6 @@ https://github.com/kabelsea/go-scrapy
 - Embed code into markdown and keep everything in sync
 - https://github.com/campoy/embedmd
 
-
-### mgmt
-- Next generation distributed, event-driven, parallel config management
-- Like Puppet, Ansible (I think)
-- https://github.com/purpleidea/mgmt
 
 ### packr
 - Embed static files into Go binaries.
