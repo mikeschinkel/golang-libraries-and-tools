@@ -8,12 +8,231 @@ I am sharing publicly in case it helps others.
 - https://awesome-go.com/
 - https://github.com/golang/go/wiki/GoGenerateTools
 
+## SYSADMIN TOOLS
+- Build bare-metal stateless and immutable bootable images
+- https://github.com/godarch/darch
+- https://godarch.com/
+
+## AI/CHATBOTS
+- Chatbot w/artificial neural network
+- https://github.com/olivia-ai/olivia
+- https://olivia-ai.org/
+
+## SWAGGER-RELATED
+
+### go-swagger
+- Swagger 2.0 implementation
+- https://github.com/go-swagger/go-swagger
+
+### gin-swagger
+- Gin middleware for Swagger 2.0 docs
+- https://github.com/swaggo/gin-swagger
+
+
+## WORKFLOW/PIPELINE ENGINES
+
+### argo 
+- Workflow for Kubernetes
+- https://github.com/argoproj/argo
+- https://argoproj.github.io/argo/
+
+### cadence
+- Orchestration engine for long-running asynchronous tasks
+- https://github.com/uber/cadence
+
+### pipeline 
+- CI/CD, logging, monitoring, security, autoscaling for Kubernetes
+- https://github.com/banzaicloud/pipeline
+
+
+### gosx-notifier
+- Send desktop notifications on OSX 10.8+
+- https://github.com/deckarep/gosx-notifier
+
+### go-notifier
+- Cross-platform system notifications
+- https://github.com/keybase/go-notifier
+
+### mack
+- Wrapper for AppleScript
+- https://github.com/everdev/mack
+
+
+## DESKTOP NOTIFICATIONS
+
+### gosx-notifier
+- Send desktop notifications on OSX 10.8+
+- https://github.com/deckarep/gosx-notifier
+
+### go-notifier
+- Cross-platform system notifications
+- https://github.com/keybase/go-notifier
+
+### mack
+- Wrapper for AppleScript
+- https://github.com/everdev/mack
+
+
+## FILE EMBEDDING
+
+### statik
+- Embed files into an executable
+- https://github.com/rakyll/statik
+
+### packr
+- Embed static files into Go binaries.
+- https://github.com/gobuffalo/packr
+
+### go-bindata
+- Generates Go code from any file to embed binary data into executable
+- https://github.com/kevinburke/go-bindata
+
+
+## BEST PRACTICES
+- https://github.com/tmrts/go-patterns
+
 ## UTILITY
 
 ### spf13/cast
 - Safe and easy casting between types
 - https://github.com/spf13/cast
 
+## CONTENT MANAGEMENT SYSTEMS (CMS)
+
+### ponzu
+- CMS w/JSON API, HTTPS and HTTP/2 Server Push
+- https://github.com/ponzu-cms/ponzu
+- https://docs.ponzu-cms.org/
+
+## AMAZON WEB SERVICES (AWS)
+
+### aws-sdk-go
+- AWS SDK
+- https://github.com/aws/aws-sdk-go
+- https://aws.amazon.com/sdk-for-go/
+
+### awsweeper
+- AWS account cleaner
+- https://github.com/cloudetc/awsweeper
+
+### corral
+- A serverless MapReduce framework written for AWS Lambda
+- https://github.com/bcongdon/corral
+
+### pulumi
+- Define and deploy cloud apps and infrastructure
+- https://github.com/pulumi/pulumi
+- https://pulumi.io/
+
+### kube-aws 
+- CLI for declarative management of Kubernetes clusters on AWS 
+- https://github.com/kubernetes-incubator/kube-aws
+
+### pipeline 
+- CI/CD, logging, monitoring, security, autoscaling for Kubernetes
+- https://github.com/banzaicloud/pipeline
+
+
+## GRAPHQL
+
+## graphql-go/graphql
+- Implements GraphQL
+- https://github.com/graphql-go/graphql
+
+### githubv4
+- Client library for accessing GitHub GraphQL API v4
+- https://github.com/shurcooL/githubv4
+
+
+## LET'S ENCRYPT/HTTPS
+
+### lego
+- Let's Encrypt client and ACME DNS library
+- https://github.com/go-acme/lego
+
+## DOMAIN NAME SERVICE (DNS)
+
+### lego
+- Let's Encrypt client and ACME DNS library
+- https://github.com/go-acme/lego
+- https://docs.certifytheweb.com/docs/dns-validation.html
+
+## DEPLOYMENT
+
+### pulumi
+- Define and deploy cloud apps and infrastructure
+- https://github.com/pulumi/pulumi
+- https://pulumi.io/
+
+### glycerine/libzipfs
+- One-file deployment; embed a zip file in a Go app
+- https://github.com/glycerine/libzipfs
+
+### dispatch
+- Deploy serverless apps
+- https://github.com/vmware/dispatch
+- https://vmware.github.io/dispatch/
+
+### ko
+- Build and deploy Go applications on Kubernetes 
+- https://github.com/google/ko
+
+
+## SERVERLESS
+
+### iron-io/functions
+- Serverless microservices platform 
+- https://github.com/iron-io/functions
+- https://iron.io
+
+### dispatch
+- Deploy serverless apps
+- https://github.com/vmware/dispatch
+- https://vmware.github.io/dispatch/
+
+### corral
+- A serverless MapReduce framework written for AWS Lambda
+- https://github.com/bcongdon/corral
+
+### rainbond
+- Production-Grade serverless PaaS, based on kubernetes.
+- http://www.rainbond.com 
+- https://github.com/goodrain/rainbond
+
+### nuclio
+- Serverless for Real-Time and Data-Driven Applications
+- Use cases: Logging, CI/CD
+- https://github.com/nuclio/nuclio
+- https://nuclio.io/
+- https://www.slideshare.net/iguazio/nuclio-overview-october-2017-80356865
+
+## KUBERNETES
+
+### rainbond
+- Production-Grade serverless PaaS, based on kubernetes.
+- http://www.rainbond.com 
+- https://github.com/goodrain/rainbond
+
+### ko
+- Build and deploy Go applications on Kubernetes 
+- https://github.com/google/ko
+
+### keda 
+- Kubernetes event-driven autoscaling component
+- https://github.com/kedacore/keda
+
+### kube-aws 
+- CLI for declarative management of Kubernetes clusters on AWS 
+- https://github.com/kubernetes-incubator/kube-aws
+
+### kube-aws 
+- CLI for declarative management of Kubernetes clusters on AWS 
+- https://github.com/kubernetes-incubator/kube-aws
+
+### argo 
+- Workflow for Kubernetes
+- https://github.com/argoproj/argo
+- https://argoproj.github.io/argo/
 
 
 ## GO DEV WORKFLOW
@@ -176,6 +395,8 @@ I am sharing publicly in case it helps others.
 - https://github.com/chenjiandongx/go-echarts
 
 ## LOGGING
+- Using Go's Built-in Logger to Log to Syslog
+- http://technosophos.com/2013/09/14/using-gos-built-logger-log-syslog.html
 
 ### logrus
 - Structured, pluggable logging for Go.
@@ -190,7 +411,6 @@ I am sharing publicly in case it helps others.
 - https://github.com/uber-go/zap
 - https://godoc.org/go.uber.org/zap
 
-
 ### go-loghttp
 - Log http.Client's requests and responses
 - https://github.com/motemen/go-loghttp
@@ -198,6 +418,32 @@ I am sharing publicly in case it helps others.
 ### zerolog
 - Zero-allocation JSON logger
 - https://github.com/rs/zerolog
+
+### mcuadros/go-syslog
+- Syslog server library 
+- https://github.com/mcuadros/go-syslog
+- https://godoc.org/gopkg.in/mcuadros/go-syslog.v2
+
+### influxdata/go-syslog
+- RFC5424 syslog parser
+- https://github.com/influxdata/go-syslog
+
+### logrus-syslog-ng
+- Syslog hook for Logrus w/TLS and retry
+- https://github.com/shinji62/logrus-syslog-ng
+
+### hashicorp/go-syslog
+- C ross-compile friendly syslog wrapper
+- https://github.com/hashicorp/go-syslog
+
+### syslog-gollector
+- Syslog Collector for Kafka 
+- https://github.com/otoolep/syslog-gollector
+
+### srslog
+- Drop-in replacement for log/syslog w/extra features
+- https://github.com/racksec/srslog
+- https://medium.com/@sirsean/srslog-sending-syslog-messages-from-go-a270d9c74ecd
 
 
 ## AUTH
@@ -238,6 +484,10 @@ I am sharing publicly in case it helps others.
 ### rqlite
 - Distributed relational database built on SQLite. 
 - https://github.com/rqlite/rqlite
+
+## SQL 
+- SQL Parser
+- https://github.com/xwb1989/sqlparser
 
 
 ## DATABASE
@@ -295,6 +545,10 @@ I am sharing publicly in case it helps others.
 ### githubv4
 - Client library for accessing GitHub GraphQL API v4
 - https://github.com/shurcooL/githubv4
+
+### graphql
+- An implementation of GraphQL 
+- https://github.com/graphql-go/graphql
 
 ## AMAZON/S3/etc.
 
@@ -433,7 +687,7 @@ https://github.com/geohot/minikeyvalue
 - https://github.com/chrislusf/gleam
 
 ### corral
--  A serverless MapReduce framework written for AWS Lambda
+- A serverless MapReduce framework written for AWS Lambda
 - https://github.com/bcongdon/corral
 
 ## MICROSERVICES
@@ -783,13 +1037,12 @@ https://github.com/bet365/jingo
 - https://fsnotify.org/
 - https://github.com/fsnotify/fsnotify
 
-## TASK SCHEDULING
+## TASK RUNNING/SCHEDULING
 
 ### atc
 - Build scheduler and web interface
 - https://github.com/concourse/atc
 - https://concourse-ci.org/
-
 
 ### scheduler
 - Task Schedular
@@ -814,11 +1067,22 @@ https://github.com/bet365/jingo
 - job queue service with HTTP API
 - https://github.com/fireworq/fireworq    
 
-## TASK RUNNING
-
 ### task
 - Simpler Make alternative/task runner
 - https://github.com/go-task/task
+
+### machinery
+- An asynchronous task queue/job queue based on distributed message passing.
+- https://github.com/RichardKnop/machinery    
+
+### cadence
+- Orchestration engine for long-running asynchronous tasks
+- https://github.com/uber/cadence
+
+
+
+
+
 
 ## RPC
 
@@ -879,6 +1143,13 @@ https://github.com/bet365/jingo
 - validate the structure of container images
 - https://github.com/GoogleContainerTools/
 
+### dockle
+- Docker image security linter 
+- https://github.com/goodwithtech/dockle
+
+### local-persist
+- Create local persistent volumes for Docker
+- https://github.com/MatchbookLab/local-persist
 
 ## VIRTUAL MACHINES (VM)
 ### govmomi
@@ -1172,6 +1443,16 @@ https://github.com/kabelsea/go-scrapy
 
 
 ## GO-BASED APPS
+### goalert
+- On-call scheduling, automated escalation and SMS/Voice notifications
+- https://github.com/target/goalert
+- https://goalert.me/
+
+### pspy
+- Monitor linux processes without root permissions
+- https://github.com/DominicBreuker/pspy
+
+
 ### hecate
 - Hex Editor 
 - https://github.com/evanmiller/hecate
@@ -1229,10 +1510,6 @@ https://github.com/kabelsea/go-scrapy
 - cross-platform dialog API for go-lang
 - https://github.com/sqweek/dialog
 
-### glycerine/libzipfs
-- Ship a zip file of media resources inside your golang web-app for complete standalone one-binary deployment
-- https://github.com/glycerine/libzipfs
-
 ### urlesc
 - URL escaping as per RFC3986
 - https://github.com/PuerkitoBio/urlesc
@@ -1247,11 +1524,6 @@ https://github.com/kabelsea/go-scrapy
 - Sortable GUIDs
 - https://github.com/segmentio/ksuid
 
-### go-swagger
-- Swagger 2.0 implementation
-- https://github.com/go-swagger/go-swagger
-
-
 ### swag
 - Generate RESTful API docs w/Swagger 2.0
 - https://swaggo.github.io/swaggo.io/
@@ -1264,11 +1536,6 @@ https://github.com/kabelsea/go-scrapy
 ### authboss 
 - The boss of http auth.
 - https://github.com/volatiletech/authboss
-
-### rainbond
-- Production-Grade serverless PaaS, based on kubernetes.
-- http://www.rainbond.com 
-- https://github.com/goodrain/rainbond
 
 ### DataflowKit
 - Extract structured data from web sites. Web sites scraping.
@@ -1312,10 +1579,6 @@ https://github.com/kabelsea/go-scrapy
 - https://github.com/campoy/embedmd
 
 
-### packr
-- Embed static files into Go binaries.
-- https://github.com/gobuffalo/packr
-
 ### glide
 - Package Management for Golang 
 - https://glide.sh 
@@ -1331,13 +1594,6 @@ https://github.com/kabelsea/go-scrapy
 - Can be embedded into blogs, articles or any other place where readers add comments.
 - https://remark42.com
 - https://github.com/umputun/remark 
-
-### nuclio
-- Serverless for Real-Time and Data-Driven Applications
-- Use cases: Logging, CI/CD
-- https://github.com/nuclio/nuclio
-- https://nuclio.io/
-- https://www.slideshare.net/iguazio/nuclio-overview-october-2017-80356865
 
 ### ui
 - Platform-native GUI library for Go.
@@ -1398,10 +1654,6 @@ https://github.com/kabelsea/go-scrapy
 ### PIGO
 - Pico face detection
 - https://github.com/esimov/pigo
-
-### awsweeper
-- AWS account cleaner
-- https://github.com/cloudetc/awsweeper
 
 ### outside
 - Windows DLL interface
@@ -1545,11 +1797,6 @@ https://github.com/kabelsea/go-scrapy
 ### red
 - Terminal log analysis tools
 - https://github.com/antonmedv/red
-
-### dispatch
-- Deploy serverless apps
-- https://github.com/vmware/dispatch
-- https://vmware.github.io/dispatch/
 
 ### go-hashids
 - generate short unique ids from integers
