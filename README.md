@@ -87,6 +87,10 @@ I am sharing publicly in case it helps others.
 - Generates Go code from any file to embed binary data into executable
 - https://github.com/kevinburke/go-bindata
 
+### mjibson/esc
+- Simple file embedder w/http.FileSystem interface 
+- https://github.com/mjibson/esc
+- https://godoc.org/github.com/mjibson/esc
 
 ## BEST PRACTICES
 - https://github.com/tmrts/go-patterns
