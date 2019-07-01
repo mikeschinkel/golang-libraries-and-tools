@@ -18,6 +18,19 @@ I am sharing publicly in case it helps others.
 - https://github.com/olivia-ai/olivia
 - https://olivia-ai.org/
 
+
+## DATA VALIDATION
+### ozzo-validation
+- Idiomatic data validation package
+- https://github.com/go-ozzo/ozzo-validation
+
+
+## WEBRTC
+### pion/webrtc
+- WebRTC API in pure Go 
+- https://github.com/pion/webrtc
+- https://pion.ly/
+
 ## SWAGGER-RELATED
 
 ### go-swagger
@@ -211,6 +224,11 @@ I am sharing publicly in case it helps others.
 - https://www.slideshare.net/iguazio/nuclio-overview-october-2017-80356865
 
 ## KUBERNETES
+
+### operator-sdk
+- SDK for building Kubernetes apps
+- https://github.com/operator-framework/operator-sdk
+- https://coreos.com/operators/
 
 ### rainbond
 - Production-Grade serverless PaaS, based on kubernetes.
@@ -494,7 +512,21 @@ I am sharing publicly in case it helps others.
 - https://github.com/xwb1989/sqlparser
 
 
-## DATABASE
+## MYSQL PROXY
+### gaea
+- Mysql proxy
+- https://github.com/XiaoMi/Gaea
+
+### dataux
+- Federated mysql compatible proxy to elasticsearch, mongo, cassandra, big-table, google datastore
+- https://github.com/dataux/dataux     
+- Like https://prestodb.io but in Go.
+
+## DATABASE/SQL
+
+### soar
+- SQL Optimizer And Rewriter
+- https://github.com/XiaoMi/soar
 
 ### dbx
 - codegen-based database wrapper written in Go
@@ -727,6 +759,12 @@ https://github.com/geohot/minikeyvalue
 
 ## WEB FRAMEWORKS
 
+### gogf/gf
+- Modular app dev framework
+- https://github.com/gogf/gf
+- https://godoc.org/github.com/gogf/gf
+- https://goframe.org (Chinese)
+
 ### web.go
 - Create web applications 
 - https://github.com/hoisie/web
@@ -895,9 +933,12 @@ https://github.com/geohot/minikeyvalue
 - https://github.com/thedevsaddam/gojsonq - JSON/XML query
 
 ### jingo
-Fast(?) JSON encoder
+- JSON encoder
 https://github.com/bet365/jingo
 
+### mailru/easyjson
+- JSON serializer
+- https://github.com/mailru/easyjson
 
 ### jp
 - Terminal plots from JSON data
@@ -933,6 +974,11 @@ https://github.com/bet365/jingo
 - Federated mysql compatible proxy to elasticsearch, mongo, cassandra, big-table, google datastore
 - https://github.com/dataux/dataux     
 - Like https://prestodb.io but in Go.
+
+### gaea
+- Mysql proxy
+- https://github.com/XiaoMi/Gaea
+
 
 ## HTTP SERVER
 
@@ -1085,9 +1131,6 @@ https://github.com/bet365/jingo
 
 
 
-
-
-
 ## RPC
 
 ### grpc
@@ -1122,6 +1165,11 @@ https://github.com/bet365/jingo
 
 
 ## CONTAINERS
+
+### lazy-docker
+- CLI text UI to manage Docker
+- https://github.com/jesseduffield/lazydocker
+
 ### harbor
 - Self-hosted container registry 
 - https://goharbor.io/
@@ -1447,6 +1495,17 @@ https://github.com/kabelsea/go-scrapy
 
 
 ## GO-BASED APPS
+
+### lazy-docker
+- CLI text UI to manage Docker
+- https://github.com/jesseduffield/lazydocker
+
+### gopass
+- CLI password manager for teams 
+- https://github.com/gopasspw/gopass
+- https://www.gopass.pw/
+- https://asciinema.org/a/172749
+
 ### goalert
 - On-call scheduling, automated escalation and SMS/Voice notifications
 - https://github.com/target/goalert
