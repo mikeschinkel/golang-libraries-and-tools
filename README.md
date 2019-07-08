@@ -18,6 +18,47 @@ I am sharing publicly in case it helps others.
 - https://github.com/olivia-ai/olivia
 - https://olivia-ai.org/
 
+## SERIALIZATION
+- **Ethereum Serialization**
+- https://github.com/ethereum/eth2.0-specs/blob/v0.7.1/specs/simple-serialize.md
+
+## TWILIO
+- **Google Functions & Twilio**
+- https://ieftimov.com/post/tell-team-running-late-google-home-google-functions-golang-twilio/
+
+
+## ARCHIVES/ZIP/TAR/ETC
+
+### archiver
+- Create, extract, compress & decompress various archive formats
+- https://godoc.org/github.com/mholt/archiver
+- https://github.com/mholt/archiver 
+
+### glycerine/libzipfs
+- One-file deployment; embed a zip file in a Go app
+- https://github.com/glycerine/libzipfs
+
+
+
+## LINUX SOCKET FILTERING
+
+### dropbox/goebpf
+- https://github.com/dropbox/goebpf
+- https://www.iovisor.org/technology/ebpf
+
+
+## EXPRESSION EVALUATION
+
+### antonmedv/expr
+- Evaluate expressions
+- https://github.com/antonmedv/expr
+
+## APACHE KAFKA
+### sarama
+- Apache Kafka client library
+- https://github.com/Shopify/sarama
+- https://shopify.github.io/sarama/
+
 
 ## DATA VALIDATION
 ### ozzo-validation
@@ -57,14 +98,15 @@ I am sharing publicly in case it helps others.
 - CI/CD, logging, monitoring, security, autoscaling for Kubernetes
 - https://github.com/banzaicloud/pipeline
 
+### gaia
+- Pipelines in any language
+- https://gaia-pipeline.io/
+- https://github.com/gaia-pipeline/gaia 
 
-### gosx-notifier
-- Send desktop notifications on OSX 10.8+
-- https://github.com/deckarep/gosx-notifier
-
-### go-notifier
-- Cross-platform system notifications
-- https://github.com/keybase/go-notifier
+### benthos
+- Stream pipeline processor for mundane tasks
+- https://www.benthos.dev/
+- https://github.com/Jeffail/benthos
 
 ### mack
 - Wrapper for AppleScript
@@ -169,6 +211,10 @@ I am sharing publicly in case it helps others.
 
 ## DOMAIN NAME SERVICE (DNS)
 
+### dnsimple
+- Domain Management **SERVICE** with Go API
+- https://dnsimple.com/campaign/go-api
+
 ### lego
 - Let's Encrypt client and ACME DNS library
 - https://github.com/go-acme/lego
@@ -259,6 +305,10 @@ I am sharing publicly in case it helps others.
 
 ## GO DEV WORKFLOW
 
+### snitch
+- Runs tests on file modification
+- https://github.com/axcdnt/snitch
+
 ### go-spew
 - Deep pretty printer for debugging data structures 
 - https://github.com/davecgh/go-spew
@@ -324,6 +374,10 @@ I am sharing publicly in case it helps others.
 
 
 ## DESKTOP
+
+### vecty
+- Front-end lib outputs to WebAssembly or JS
+- https://github.com/gopherjs/vecty
 
 ### App
 - Package to build MacOS and Web apps using Go, HTML and CSS
@@ -469,6 +523,12 @@ I am sharing publicly in case it helps others.
 
 
 ## AUTH
+
+### ory/hydra
+- OpenID Connect & OAuth2 Server
+- https://github.com/ory/hydra
+- https://gethydra.sh/
+- https://gethydra.sh/hydra-1.0-stable-release/
 
 ### dex
 - OIDC and OAuth 2.0 Provider
@@ -728,6 +788,10 @@ https://github.com/geohot/minikeyvalue
 
 ## MICROSERVICES
 
+### micro/micro
+- Microservice development runtime
+- https://github.com/micro/micro
+
 ### GoKit
 - Microservices toolkit
 - http://gokit.io/
@@ -844,6 +908,12 @@ https://github.com/geohot/minikeyvalue
 - https://github.com/gorilla/csrf (CSRF prevention middleware)
 
 ## TESTING
+- **SubTesting:**
+  https://gochronicles.dev/posts/datastructures/list/singlylinkedlist/part-ii/
+
+### snitch
+- Runs tests on file modification
+- https://github.com/axcdnt/snitch
 
 
 ### goconvey
@@ -1079,8 +1149,11 @@ https://github.com/bet365/jingo
 - Interactive prompt for CLI apps
 - https://github.com/manifoldco/promptui
 
+## FILE/PROCESS MONITORING
 
-## FILE MONITORING    
+### noti
+- Monitors processes and triggers notifications
+- https://github.com/variadico/noti    
 
 ### fsnotify
 - Cross-platform file system notifications
@@ -1881,8 +1954,6 @@ https://github.com/kabelsea/go-scrapy
 ## TO BE CATEGORIZED
 - http://labix.org/gocheck
 - https://chronoxor.github.io/FastBinaryEncoding/
-- https://gaia-pipeline.io/ 
-- Pipelines in any language
 - https://github.com/alash3al/redix
 - https://github.com/asmcos/requests
 - https://github.com/buger/goreplay
@@ -1909,8 +1980,6 @@ https://github.com/kabelsea/go-scrapy
 - https://www.youtube.com/watch?v=RqubKSF3wig
 - https://github.com/mgechev/revive 
 - Linter
-- https://github.com/mholt/archiver 
-- ZIP, TAR etc files
 - https://github.com/mithrandie/csvq
 - https://github.com/netdata/go-statsd 
 - https://www.datadoghq.com/blog/statsd/
