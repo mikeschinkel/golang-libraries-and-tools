@@ -8,6 +8,31 @@ I am sharing publicly in case it helps others.
 - https://awesome-go.com/
 - https://github.com/golang/go/wiki/GoGenerateTools
 
+
+## LINUX
+
+### u-root
+- Linux bootloaders
+- https://github.com/u-root/u-root
+
+## WEBSOCKETS
+
+### gorilla/websocket
+- A WebSocket implementation for Go.
+- https://github.com/gorilla/websocket 
+
+### hostyoself
+- A proxy hosting app using websockets
+- https://github.com/schollz/hostyoself 
+- https://hostyoself.com/
+
+
+## SECURITY
+### OWASP/Go-SCP
+- Secure Coding Practices
+- https://github.com/OWASP/Go-SCP
+
+
 ## SYSADMIN TOOLS
 - Build bare-metal stateless and immutable bootable images
 - https://github.com/godarch/darch
@@ -25,6 +50,18 @@ I am sharing publicly in case it helps others.
 ## TWILIO
 - **Google Functions & Twilio**
 - https://ieftimov.com/post/tell-team-running-late-google-home-google-functions-golang-twilio/
+
+## HASHING
+### cityhash
+- Implementation of Google CityHash
+- https://github.com/zentures/cityhash/
+- https://godoc.org/github.com/zhenjl/cityhash
+- https://opensource.googleblog.com/2011/04/introducing-cityhash.html
+
+### go-hashids
+- generate short unique ids from integers
+- https://github.com/speps/go-hashids
+- https://hashids.org/
 
 
 ## ARCHIVES/ZIP/TAR/ETC
@@ -638,6 +675,15 @@ I am sharing publicly in case it helps others.
 - https://github.com/rqlite/rqlite
 
 ## GITHUB 
+
+### go-github
+- GitHub API client
+- https://github.com/google/go-github
+
+### go-git
+- Git 
+- https://github.com/src-d/go-git
+
 ### githubv4
 - Client library for accessing GitHub GraphQL API v4
 - https://github.com/shurcooL/githubv4
@@ -1031,6 +1077,10 @@ https://github.com/bet365/jingo
 
 
 ## PROXY
+### imgproxy
+- Server for resizing and converting remote images
+- https://github.com/imgproxy/imgproxy
+
 ### lightify
 - Reverse proxy with minification
 - https://github.com/alash3al/lightify
@@ -1133,6 +1183,10 @@ https://github.com/bet365/jingo
 
 ## CLI 
 
+### ff
+- Flags-first configuration package 
+- https://github.com/peterbourgon/ff
+
 ### kingpin
 - Command line parser
 - https://github.com/alecthomas/kingpin
@@ -1149,6 +1203,14 @@ https://github.com/bet365/jingo
 - Interactive prompt for CLI apps
 - https://github.com/manifoldco/promptui
 
+### go-pretty
+- Table printer
+- https://github.com/jedib0t/go-pretty
+
+### uitable
+- Improve readability of tabular data in terminal apps
+- https://github.com/gosuri/uitable
+
 ## FILE/PROCESS MONITORING
 
 ### noti
@@ -1161,6 +1223,10 @@ https://github.com/bet365/jingo
 - https://github.com/fsnotify/fsnotify
 
 ## TASK RUNNING/SCHEDULING
+
+### gocelery
+- Celery Distributed Task Queue 
+- https://github.com/gocelery/gocelery
 
 ### atc
 - Build scheduler and web interface
@@ -1308,6 +1374,7 @@ https://github.com/bet365/jingo
 - Fork of Gogs
 - https://github.com/go-gitea/
 - https://gitea.io
+- https://blog.gitea.io/2019/07/gitea-1.9.0-is-released/
 
 ## CACHING
 
@@ -1426,12 +1493,23 @@ https://github.com/kabelsea/go-scrapy
 - https://github.com/gorilla/securecookie
 
 
-## OPENAPI
+## RESTFUL API
+
+## resty 
+- HTTP and REST client library
+- https://github.com/go-resty/resty
+
+
+## OPENAPI/SWAGGER
 
 ### oapi-codegen
 - Generate Go client and server boilerplate from OpenAPI 3 specifications
 - https://github.com/deepmap/oapi-codegen
 
+### swag
+- Generate RESTful API docs w/Swagger 2.0
+- https://swaggo.github.io/swaggo.io/
+- https://github.com/swaggo/swag
 
 ## BITTORRENT
 - https://halfbyte.io/a-bittorrent-client-in-go-part-1-torrent-file-and-announcement/
@@ -1569,6 +1647,16 @@ https://github.com/kabelsea/go-scrapy
 
 ## GO-BASED APPS
 
+### hostyoself
+- A proxy hosting app using websockets
+- https://github.com/schollz/hostyoself 
+- https://hostyoself.com/
+
+
+### gbt (Go Bullet Train)
+- Bash/ZSH Prompt Builder
+- https://github.com/jtyr/gbt
+
 ### lazy-docker
 - CLI text UI to manage Docker
 - https://github.com/jesseduffield/lazydocker
@@ -1636,7 +1724,15 @@ https://github.com/kabelsea/go-scrapy
 - https://github.com/spiral/goridge
 
 
+
+
 ## CURRENTLY UNCATEGORIZED
+
+
+
+### fastrand
+- Fast random number generator
+- https://github.com/awnumar/fastrand
 
 ### olebedev/emitter
 - Emits events with wildcard, predicates, cancellation
@@ -1659,11 +1755,6 @@ https://github.com/kabelsea/go-scrapy
 ### ksuid
 - Sortable GUIDs
 - https://github.com/segmentio/ksuid
-
-### swag
-- Generate RESTful API docs w/Swagger 2.0
-- https://swaggo.github.io/swaggo.io/
-- https://github.com/swaggo/swag
 
 ### elastic
 - Elasticsearch client
@@ -1934,11 +2025,6 @@ https://github.com/kabelsea/go-scrapy
 - Terminal log analysis tools
 - https://github.com/antonmedv/red
 
-### go-hashids
-- generate short unique ids from integers
-- https://github.com/speps/go-hashids
-- https://hashids.org/
-
 ### bimg
 - high-level image processing powered by libvips C library
 - https://github.com/h2non/bimg
@@ -1950,6 +2036,11 @@ https://github.com/kabelsea/go-scrapy
 ## aurora
 - ANSI colors for Printf()/Sprintf()
 - https://github.com/logrusorgru/aurora
+
+## aurora
+- Blocking leaky-bucket rate limiter
+- https://github.com/uber-go/ratelimit
+
 
 ## TO BE CATEGORIZED
 - http://labix.org/gocheck
@@ -1968,7 +2059,6 @@ https://github.com/kabelsea/go-scrapy
 - https://github.com/elastic/go-elasticsearch
 - https://github.com/essentialkaos/gomakegen
 - https://github.com/getlantern/systray
-- https://github.com/go-task/task - Task runner
 - https://github.com/google/flatbuffers/tree/master/go
 - https://github.com/intel-go/bytebuf
 - https://github.com/jaypipes/pcidb
