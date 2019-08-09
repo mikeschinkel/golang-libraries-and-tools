@@ -9,6 +9,12 @@ I am sharing publicly in case it helps others.
 - https://github.com/golang/go/wiki/GoGenerateTools
 
 
+## COMMON/UTIL/KITCHEN SINK
+
+### pinpt/go-common
+- Pinpoint's common shared code
+- https://github.com/pinpt/go-common
+
 ## LINUX
 
 ### u-root
@@ -66,6 +72,10 @@ I am sharing publicly in case it helps others.
 
 ## ARCHIVES/ZIP/TAR/ETC
 
+### compress
+- Optimized compression used by gzip/zip/zlib
+- https://github.com/klauspost/compress
+
 ### archiver
 - Create, extract, compress & decompress various archive formats
 - https://godoc.org/github.com/mholt/archiver
@@ -122,6 +132,11 @@ I am sharing publicly in case it helps others.
 
 ## WORKFLOW/PIPELINE ENGINES
 
+### modd
+- Runs processes and responds to filesystem changes
+- https://github.com/cortesi/modd
+- https://corte.si/posts/modd/announce/index.html
+
 ### argo 
 - Workflow for Kubernetes
 - https://github.com/argoproj/argo
@@ -152,6 +167,10 @@ I am sharing publicly in case it helps others.
 
 ## DESKTOP NOTIFICATIONS
 
+### modd
+- Runs processes and responds to filesystem changes
+- https://github.com/cortesi/modd
+
 ### gosx-notifier
 - Send desktop notifications on OSX 10.8+
 - https://github.com/deckarep/gosx-notifier
@@ -166,6 +185,10 @@ I am sharing publicly in case it helps others.
 
 
 ## FILE EMBEDDING
+
+### Article(s)
+#### How I Embedded Resources in Go
+- https://levelup.gitconnected.com/how-i-embedded-resources-in-go-514b72f6ef0a
 
 ### statik
 - Embed files into an executable
@@ -341,6 +364,14 @@ I am sharing publicly in case it helps others.
 
 
 ## GO DEV WORKFLOW
+
+### CompileDaemon
+- Simple compile daemon for Go
+- https://github.com/githubnemo/CompileDaemon
+
+### gomodifytags
+- Tool to modify struct field tags
+- https://github.com/fatih/gomodifytags
 
 ### snitch
 - Runs tests on file modification
@@ -595,6 +626,10 @@ I am sharing publicly in case it helps others.
 
 
 ## SQLITE
+
+### crawshaw/sqlite
+- SQLite3 driver
+- https://github.com/crawshaw/sqlite
 
 ### go-sqlite3
 - sqlite3 driver for database/sql
@@ -1076,6 +1111,20 @@ https://github.com/bet365/jingo
 - https://github.com/rs/zerolog
 
 
+## GO MODULE PROXY
+
+### Google Go Module Mirror
+- https://groups.google.com/forum/#!topic/golang-announce/0wo8cOhGuAI
+- https://langserver.org/
+
+### Athens
+- A Go module datastore and proxy
+- https://github.com/gomods/athens
+- https://docs.gomods.io/ 
+- https://cloudblogs.microsoft.com/opensource/2018/08/28/announcing-project-athens-gophersource-go-community/
+
+
+
 ## PROXY
 ### imgproxy
 - Server for resizing and converting remote images
@@ -1181,7 +1230,21 @@ https://github.com/bet365/jingo
 - https://github.com/joomcode/redispipe 
 
 
-## CLI 
+## CLI ARGUMENT PARSING 
+
+### go-arg
+- Struct-based argument parsing
+- https://github.com/alexflint/go-arg
+
+
+### cobra
+- CLI commands argument parser
+- https://github.com/spf13/cobra
+- https://medium.com/@blanchon.vincent/go-thoughts-about-cobra-f4e8c5f18091
+
+### urlfave/cli
+- Package for building command line apps
+- https://github.com/urfave/cli
 
 ### ff
 - Flags-first configuration package 
@@ -1211,7 +1274,16 @@ https://github.com/bet365/jingo
 - Improve readability of tabular data in terminal apps
 - https://github.com/gosuri/uitable
 
-## FILE/PROCESS MONITORING
+## FILE WATCHER/PROCESS MONITORING
+
+### CompileDaemon
+- Simple compile daemon for Go
+- https://github.com/githubnemo/CompileDaemon
+
+### modd
+- Runs processes and responds to filesystem changes
+- https://github.com/cortesi/modd
+- https://corte.si/posts/modd/announce/index.html
 
 ### noti
 - Monitors processes and triggers notifications
@@ -1223,6 +1295,10 @@ https://github.com/bet365/jingo
 - https://github.com/fsnotify/fsnotify
 
 ## TASK RUNNING/SCHEDULING
+
+### realize
+- Task Runner and live reloader
+- https://github.com/oxequa/realize
 
 ### gocelery
 - Celery Distributed Task Queue 
@@ -1271,6 +1347,15 @@ https://github.com/bet365/jingo
 
 
 ## RPC
+
+### Article(s)
+#### Practical guide to securing gRPC connections with Go and TLS
+- https://itnext.io/practical-guide-to-securing-grpc-connections-with-go-and-tls-part-1-f63058e9d6d1
+
+
+### simple-go-rpc
+- Learn RPC explained by writing simple 300 line framework
+- https://github.com/ankur-anand/simple-go-rpc
 
 ### grpc
 -  Go implementation of gRPC. HTTP/2 based RPC
@@ -1499,6 +1584,11 @@ https://github.com/kabelsea/go-scrapy
 - HTTP and REST client library
 - https://github.com/go-resty/resty
 
+## go-sundheit
+- API Health Check 
+- https://github.com/AppsFlyer/go-sundheit/
+- https://medium.com/appsflyer/health-checks-like-a-pro-3fa362942883
+
 
 ## OPENAPI/SWAGGER
 
@@ -1596,8 +1686,15 @@ https://github.com/kabelsea/go-scrapy
 - https://github.com/gosuri/uiprogress
 
 ## TEXT USER INTERFACES
-- TUI comparison article
+
+### Article(s)
+- Text-Based User Interfaces
 - https://appliedgo.net/tui/
+
+### sampler
+- Shell commands visualization and alerting configured via YAML
+- https://github.com/sqshq/sampler
+- https://sampler.dev
 
 ### tview
 - Interactive widgets for terminal-based UIs
@@ -1646,6 +1743,10 @@ https://github.com/kabelsea/go-scrapy
 
 
 ## GO-BASED APPS
+
+### gomodifytags
+- Tool to modify struct field tags
+- https://github.com/fatih/gomodifytags
 
 ### hostyoself
 - A proxy hosting app using websockets
@@ -1727,8 +1828,6 @@ https://github.com/kabelsea/go-scrapy
 
 
 ## CURRENTLY UNCATEGORIZED
-
-
 
 ### fastrand
 - Fast random number generator
@@ -2076,7 +2175,6 @@ https://github.com/kabelsea/go-scrapy
 - https://github.com/nlopes/slack
 - https://github.com/nsqio/nsq
 - https://github.com/objectbox/objectbox-go
-- https://github.com/oxequa/realize - Task runner
 - https://github.com/PaesslerAG/gval
 - https://github.com/percolate/charlatan
 - https://github.com/PuerkitoBio/goquery
