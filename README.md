@@ -8,18 +8,79 @@ I am sharing publicly in case it helps others.
 - https://awesome-go.com/
 - https://github.com/golang/go/wiki/GoGenerateTools
 
+## ARTICLES
+### Using io.Reader/io.Writer in Go to stream data
+- https://dasio.hashnode.dev/using-of-ioreaderiowriter-in-go-to-stream-data-ck0v22mvg0005xes1gp13f5pg
+
+### Understanding Package Visibility in Go
+- https://www.digitalocean.com/community/tutorials/understanding-package-visibility-in-go
+
+### How to Use Websockets in Golang : Best Tools and Step-by-Step Guide
+- https://yalantis.com/blog/how-to-build-websockets-in-go/
+
+### Using Go instead of bash for scripts
+https://presstige.io/p/Using-Go-instead-of-bash-for-scripts-6b51885c1f6940aeb40476000d0eb0fc
+
+
+## VIDEOS
+### Dgraph: the Graph Database written in Go
+- https://www.youtube.com/watch?v=CjkKRbtwWXA
+- https://speakerdeck.com/campoy/dgraph-the-graph-database-written-in-go
+
 
 ## COMMON/UTIL/KITCHEN SINK
-
 ### pinpt/go-common
 - Pinpoint's common shared code
 - https://github.com/pinpt/go-common
 
-## LINUX
+### mergo
+- Merging structs and maps 
+- https://github.com/imdario/mergo
+- https://godoc.org/github.com/imdario/mergo
 
+### creasty/defaults
+- Initialize structs with default values
+- https://github.com/creasty/defaults
+
+### spf13/cast
+- Safe and easy casting between types
+- https://github.com/spf13/cast
+
+
+## STATE MACHINES
+### stateless
+-  fluent library for creating state machines
+- https://github.com/qmuntal/stateless
+
+## JAVASCRIPT
+### v8go
+- Execute JavaScript
+- https://github.com/rogchap/v8go
+
+## GOROUTINES
+### Article(s)
+- Managing Groups of Goroutines in Go
+- https://medium.com/swlh/managing-groups-of-gorutines-in-go-ee7523e3eaca
+
+### ants
+- Goroutine pool, inspired by fasthttp.
+- https://github.com/panjf2000/ants
+
+
+## LINUX
 ### u-root
 - Linux bootloaders
-- https://github.com/u-root/u-root
+- https://github.com/rogchap/v8go
+
+## SFTP
+
+### sftpgo
+- Full featured and configurable SFTP server
+- https://github.com/drakkan/sftpgo
+
+### sftp
+- SFTP support for the go.crypto/ssh package
+- https://github.com/pkg/sftp
 
 ## WEBSOCKETS
 
@@ -108,6 +169,11 @@ I am sharing publicly in case it helps others.
 
 
 ## DATA VALIDATION
+
+### govalidator
+- Validators and sanitizers for strings, numerics, slices and structs
+- https://github.com/asaskevich/govalidator
+
 ### ozzo-validation
 - Idiomatic data validation package
 - https://github.com/go-ozzo/ozzo-validation
@@ -210,12 +276,6 @@ I am sharing publicly in case it helps others.
 ## BEST PRACTICES
 - https://github.com/tmrts/go-patterns
 
-## UTILITY
-
-### spf13/cast
-- Safe and easy casting between types
-- https://github.com/spf13/cast
-
 ## CONTENT MANAGEMENT SYSTEMS (CMS)
 
 ### ponzu
@@ -270,6 +330,10 @@ I am sharing publicly in case it helps others.
 - https://github.com/go-acme/lego
 
 ## DOMAIN NAME SERVICE (DNS)
+
+### dnscaa
+- Provides a library (soon) and CLI tool to fetch the DNS CAA records
+- https://github.com/weppos/dnscaa
 
 ### dnsimple
 - Domain Management **SERVICE** with Go API
@@ -1463,6 +1527,11 @@ https://github.com/bet365/jingo
 
 ## CACHING
 
+### ristretto
+- Memory-bound cache
+- https://github.com/dgraph-io/ristretto
+- https://blog.dgraph.io/post/introducing-ristretto-high-perf-go-cache/
+
 ### Cache2Go
 - Concurrency-safe golang caching library with expiration capabilities.
 - https://github.com/uber-go/ratelimit
@@ -1744,6 +1813,14 @@ https://github.com/kabelsea/go-scrapy
 
 ## GO-BASED APPS
 
+### sftpgo
+- Full featured and configurable SFTP server
+- https://github.com/drakkan/sftpgo
+
+### lux 
+- Package manager for shell scripts
+- https://github.com/akornatskyy/lux
+
 ### gomodifytags
 - Tool to modify struct field tags
 - https://github.com/fatih/gomodifytags
@@ -1941,10 +2018,6 @@ https://github.com/kabelsea/go-scrapy
 ### fuzzy
 - Provides a terminal spinner/progress indicator 
 - https://github.com/sahilm/fuzzy
-
-### sftp
-- SFTP support for the go.crypto/ssh package
-- https://github.com/pkg/sftp
 
 ### google-cloud-go
 - Google Cloud Client Libraries for Go 
